@@ -1,0 +1,40 @@
+/*
+Ignore the critics. Only mediocrity is safe from ridicule. Dare to be different!
+— Dita von Teese
+*/
+
+
+body {
+  background: #090d00;
+  color: lightgreen;
+  margin: 0;
+}
+
+p {
+  text-transform: uppercase;
+  position: absolute;
+  top:100px;
+  width:100%;
+  text-align: center;
+  font-size:100px;
+  font-family: 'Boogaloo', cursive;
+  letter-spacing: 5px;
+}
+p span {
+  background: url(https://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+  -webkit-background-clip: text;
+  /* Animate Background Image */
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 3px tomato;
+  -webkit-animation: aitf 65s linear infinite;
+}
+
+/* Animate Background Image */
+@-webkit-keyframes aitf {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
